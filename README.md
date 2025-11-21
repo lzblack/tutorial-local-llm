@@ -1,14 +1,14 @@
 # Tutorial: Ollama + HuggingFace for local LLM execution
 
-[![Release](https://img.shields.io/github/v/release/ijstokes/tutorial-ollama-local-llm)](https://img.shields.io/github/v/release/ijstokes/tutorial-ollama-local-llm)
-[![Build status](https://img.shields.io/github/actions/workflow/status/ijstokes/tutorial-ollama-local-llm/main.yml?branch=main)](https://github.com/ijstokes/tutorial-ollama-local-llm/actions/workflows/main.yml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/ijstokes/tutorial-ollama-local-llm/branch/main/graph/badge.svg)](https://codecov.io/gh/ijstokes/tutorial-ollama-local-llm)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-ollama-local-llm)](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-ollama-local-llm)
-[![License](https://img.shields.io/github/license/ijstokes/tutorial-ollama-local-llm)](https://img.shields.io/github/license/ijstokes/tutorial-ollama-local-llm)
+[![Release](https://img.shields.io/github/v/release/ijstokes/tutorial-local-llm)](https://img.shields.io/github/v/release/ijstokes/tutorial-local-llm)
+[![Build status](https://img.shields.io/github/actions/workflow/status/ijstokes/tutorial-local-llm/main.yml?branch=main)](https://github.com/ijstokes/tutorial-local-llm/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/ijstokes/tutorial-local-llm/branch/main/graph/badge.svg)](https://codecov.io/gh/ijstokes/tutorial-local-llm)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-local-llm)](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-local-llm)
+[![License](https://img.shields.io/github/license/ijstokes/tutorial-local-llm)](https://img.shields.io/github/license/ijstokes/tutorial-local-llm)
 
 Tutorial on the use of Ollama to manage and serve local LLMs
 
-- **Github repository**: <https://github.com/ijstokes/tutorial-ollama-local-llm/>
+- **Github repository**: <https://github.com/ijstokes/tutorial-local-llm/>
 
 
 ## OVERVIEW
@@ -39,8 +39,8 @@ You can read more about these LLMs on their HuggingFace model card, or from the 
 8. Clone the repository:
 
 ```bash
-git clone https://github.com/ijstokes/tutorial-ollama-local-llm.git
-cd tutorial-ollama-local-llm
+git clone https://github.com/ijstokes/tutorial-local-llm.git
+cd tutorial-local-llm
 ```
 
 9. Setup the environment:
