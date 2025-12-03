@@ -14,11 +14,14 @@ dependencies:
     - langchain-mistralai
     - langchain-ollama
     - langchain-openai
+    - llama-index=0.12.*
     - matplotlib=3.10.*
     - ollama=0.13.*
     - ollama-python=0.6.*
     - openai=1.109.*
     - pandas=2.3.*
+    - pydantic
     - pip:
         - deepeval==3.7.*
+        - llama-index-llms-ollama
         - lm-eval==0.4.*

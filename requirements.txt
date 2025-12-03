@@ -10,8 +10,11 @@ langchain-huggingface
 langchain-mistralai
 langchain-ollama
 langchain-openai
+llama-index==0.12.*
+llama-index-llms-ollama
 lm-eval==0.4.*
 matplotlib==3.10.*
 ollama==0.6.*
 openai==1.109.*
 pandas==2.3.*
+pydantic

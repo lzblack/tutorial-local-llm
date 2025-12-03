@@ -1,8 +1,4 @@
 # Tutorial: Ollama + HuggingFace for local LLM execution
-
-[![Release](https://img.shields.io/github/v/release/ijstokes/tutorial-local-llm)](https://img.shields.io/github/v/release/ijstokes/tutorial-local-llm)
-[![Build status](https://img.shields.io/github/actions/workflow/status/ijstokes/tutorial-local-llm/main.yml?branch=main)](https://github.com/ijstokes/tutorial-local-llm/actions/workflows/main.yml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/ijstokes/tutorial-local-llm/branch/main/graph/badge.svg)](https://codecov.io/gh/ijstokes/tutorial-local-llm)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-local-llm)](https://img.shields.io/github/commit-activity/m/ijstokes/tutorial-local-llm)
 [![License](https://img.shields.io/github/license/ijstokes/tutorial-local-llm)](https://img.shields.io/github/license/ijstokes/tutorial-local-llm)
 
@@ -12,11 +8,33 @@ Tutorial on the use of Ollama to manage and serve local LLMs, leveraging the Oll
 
 
 ## OVERVIEW
-Are we in a one-size-fits-all world of LLMs, and destined to burn tokens forever via API key access to third party LLM services?  There are some great reasons to keep using 3rd party LLM services, however many data practitioners want and need a degree of control, autonomy, and maintained data sovereignty which means diving into the world of self-managed LLMs, even if they are sourced from the more than 2 million models available in the HuggingFace repository.
+Are we in a one-size-fits-all world of LLMs, and destined to burn tokens forever via API key access to third party LLM services?  There are some great reasons to keep using 3rd party LLM services, however many data practitioners want and need a degree of control, autonomy, and maintained data sovereignty.  This means diving into the world of self-managed LLMs, and a starting point for that is the Ollama framework for local model management, and the Hugging Face model repository.
+
+## OUTCOMES
+
+This tutorial will get you up and running with basic local LLMs, and get you experience and insight in the following:
+
+* Mechanics of using Ollama to fetch and run models from the CLI and API
+* Understanding trade-offs of self-managed vs SaaS-hosted LLMs
+* Picking a fit-for-purpose LLM from the Hugging Face model repository
+* Creating customized derivative LLMs, more targeted for your own purposes
+* Basics of configuring LLM interactions for your desired performance criteria
+* Understanding mechanisms for multi-model intput and structured output beyond text input and text output
+* Use of several Python libraries for interacting with LLMs, including `ollama`, and `openai`
+* Strategies for using LLMs for data analysis tasks
+
+## PRE-REQUISITES
+
+* Some Python experience
+* Some command line experience (ideally Bash/Unix shell)
+* Some Git experience
+* Some Jupyter experience
+* Laptop with at least 20GB free storage space (may be able to get away with 10 GB)
+* Laptop with at least 8GB (will be tight, ideally 16GB or more)
 
 ## SETUP
 
-1. Make sure you have a recent Python environment (3.10 or later), and [UV](https://docs.astral.sh/uv/getting-started/installation/).  You'll need to be be familiar with CLI operation (ideally Bash or similar).
+1. Make sure you have a recent Python environment (3.10 or later, ideally already 3.12), and [UV](https://docs.astral.sh/uv/getting-started/installation/) or [Mamba](https://conda-forge.org/download/). You'll need to be be familiar with CLI operation (ideally Bash or similar).
 2. Create an Ollama account: https://ollama.com/
 3. Install Ollama locally on your laptop: https://ollama.com/download/ (60MB download, 120MB installed)
 4. Start Ollama locally on your laptop, and login with your Ollama account

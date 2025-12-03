@@ -17,9 +17,12 @@ dependencies = [
     "langchain-mistralai>=0.2.12",
     "langchain-ollama>=0.3.10",
     "langchain-openai>=0.3.35",
+    "llama-index==0.12.*",
+    "llama-index-llms-ollama>=0.6.2",
     "lm-eval==0.4.*",
     "matplotlib==3.10.*",
     "ollama==0.6.*",
     "openai==1.109.*",
     "pandas==2.3.*",
+    "pydantic>=2.12.4",
 ]
