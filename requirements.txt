@@ -3,6 +3,7 @@ evidently==0.7.*
 huggingface_hub==0.36.*
 jupyter==1.1.*
 jupyterlab==4.5.*
+jupyterlab_execute_time
 langchain-anthropic
 langchain-google-genai
 langchain-huggingface
@@ -14,7 +15,8 @@ llama-index-core==0.12.*
 llama-index-llms-ollama
 lm-eval==0.4.*
 matplotlib==3.10.*
+nbdime==4.0.*
 ollama==0.6.*
 openai==1.109.*
 pandas==2.3.*
-pydantic
+pydantic==2.12.*
